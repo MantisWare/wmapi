@@ -1,0 +1,46 @@
+{
+  "name": "mwapi-generate-api",
+  "version": "3.0.0-alpha.11",
+  "description": "Generate an API for a mwapi application.",
+  "homepage": "http://mwapi.io",
+  "keywords": [
+    "generate",
+    "generator",
+    "mwapi"
+  ],
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "pluralize": "^6.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm prune"
+  },
+  "author": {
+    "email": "hi@mwapi.io",
+    "name": "mwapi team",
+    "url": "http://mwapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "mwapi team",
+      "email": "hi@mwapi.io",
+      "url": "http://mwapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwapi/mwapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwapi/mwapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}

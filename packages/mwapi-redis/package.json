@@ -1,0 +1,50 @@
+{
+  "name": "mwapi-redis",
+  "version": "3.0.0-alpha.11",
+  "description": "Redis hook for the mwapi framework",
+  "homepage": "http://mwapi.io",
+  "keywords": [
+    "redis",
+    "hook",
+    "memory",
+    "cache",
+    "mwapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "ioredis": "^3.1.2",
+    "lodash": "^4.17.4",
+    "stack-trace": "0.0.10",
+    "mwapi-utils": "3.0.0-alpha.11"
+  },
+  "mwapi": {
+    "isHook": true
+  },
+  "author": {
+    "email": "hi@mwapi.io",
+    "name": "mwapi team",
+    "url": "http://mwapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "mwapi team",
+      "email": "hi@mwapi.io",
+      "url": "http://mwapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwapi/mwapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwapi/mwapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}

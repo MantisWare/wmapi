@@ -1,0 +1,4 @@
+packages/mwapi-generate-new/files/public/**
+packages/mwapi-generate-admin/files/admin/public/**
+website/
+**/node_modules/**

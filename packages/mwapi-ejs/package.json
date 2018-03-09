@@ -1,0 +1,49 @@
+{
+  "name": "mwapi-ejs",
+  "version": "3.0.0-alpha.11",
+  "description": "EJS hook for the mwapi framework",
+  "homepage": "http://mwapi.io",
+  "keywords": [
+    "ejs",
+    "hook",
+    "mwapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "co": "^4.6.0",
+    "koa-ejs": "^4.1.0"
+  },
+  "mwapi": {
+    "isHook": true
+  },
+  "scripts": {
+    "prepublishOnly": "npm prune"
+  },
+  "author": {
+    "email": "hi@mwapi.io",
+    "name": "mwapi team",
+    "url": "http://mwapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "mwapi team",
+      "email": "hi@mwapi.io",
+      "url": "http://mwapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwapi/mwapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwapi/mwapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+// App variables
+
+// - colors
+$black: #000000;
+$white: #ffffff;
+
+$mwapi-gray-light: #EFF3F6;
+$mwapi-gray: #32394A;
+
+$mwapi-blue-darker: #101622;
+$mwapi-blue-dark: #151C2E;
+$mwapi-blue: #1C5DE7;
+$mwapi-blue-light: #7E8AAA;
+
+// - layout
+// -- left menu
+$left-menu-width: 24rem;
+$left-menu-bg: $mwapi-blue-darker;
+$left-menu-link-hover: $mwapi-blue-dark;
+$left-menu-link-color: $mwapi-blue-light;
+$left-menu-title-color: $mwapi-gray;
+
+// -- header
+$header-height: 6rem;
+
+// -- content
+$content-background: $mwapi-gray-light;
+// Import bootstrap variables
+@import "variables.bootstrap";

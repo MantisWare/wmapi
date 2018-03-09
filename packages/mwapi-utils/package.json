@@ -1,0 +1,48 @@
+{
+  "name": "mwapi-utils",
+  "version": "3.0.0-alpha.11",
+  "description": "Shared utilities for the mwapi packages",
+  "homepage": "http://mwapi.io",
+  "keywords": [
+    "knex",
+    "mwapi",
+    "utilities",
+    "utils",
+    "winston"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "joi-json": "^2.0.1",
+    "knex": "^0.13.0",
+    "lodash": "^4.17.4",
+    "pino": "^4.7.1"
+  },
+  "author": {
+    "email": "hi@mwapi.io",
+    "name": "mwapi team",
+    "url": "http://mwapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "mwapi team",
+      "email": "hi@mwapi.io",
+      "url": "http://mwapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwapi/mwapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwapi/mwapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}

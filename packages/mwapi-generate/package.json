@@ -1,0 +1,46 @@
+{
+  "name": "mwapi-generate",
+  "version": "3.0.0-alpha.11",
+  "description": "Master of ceremonies for the mwapi generators.",
+  "homepage": "http://mwapi.io",
+  "keywords": [
+    "generate",
+    "generator",
+    "mwapi"
+  ],
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "fs-extra": "^4.0.0",
+    "lodash": "^4.17.4",
+    "reportback": "^2.0.1",
+    "mwapi-utils": "3.0.0-alpha.11"
+  },
+  "author": {
+    "name": "mwapi team",
+    "email": "hi@mwapi.io",
+    "url": "http://mwapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "mwapi team",
+      "email": "hi@mwapi.io",
+      "url": "http://mwapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwapi/mwapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwapi/mwapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}
