@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "flag-icon-css": "^2.8.0",
-    "react-select": "^1.0.0-rc.5",
-    "mwapi-helper-plugin": "3.0.0-alpha.11"
+    "mwapi-helper-plugin": "3.0.0-alpha.11",
+    "react-select": "^1.0.0-rc.5"
   },
   "author": {
     "name": "mwapi team",

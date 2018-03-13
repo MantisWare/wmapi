@@ -8,7 +8,7 @@ Update the `production` settings with the IP and domain name where the project w
 ```js
 {
   "host": "domain.io", // IP or domain
-  "port": 1337,
+  "port": 1450,
   "autoReload": {
     "enabled": false
   },

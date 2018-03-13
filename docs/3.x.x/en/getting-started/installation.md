@@ -13,7 +13,7 @@ Please make sure your computer/server meets the following requirements:
 Time to install mwapi!
 
 ```bash
-npm install mwapi@alpha -g
+npm install mwapi -g
 ```
 
 Note: if you encounter npm permissions issues, [change the permissions to npm default directory](https://docs.npmjs.com/getting-started/fixing-npm-permissions#option-1-change-the-permission-to-npms-default-directory).

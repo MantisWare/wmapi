@@ -320,15 +320,15 @@ Most of the application's configurations are defined by environment. It means th
 **Path —** `./config/environments/**/server.json`.
 
  - `host` (string): Host name. Default value: `localhost`.
- - `port` (integer): Port on which the server should be running. Default value: `1337`.
+ - `port` (integer): Port on which the server should be running. Default value: `1450`.
  - `autoReload` (boolean): Enable or disabled server reload on files update. Default value: depends on the environment.
  - [`cron`](https://en.wikipedia.org/wiki/Cron)
   - `enabled` (boolean): Enable or disable CRON tasks to schedule jobs at specific dates. Default value: `false`.
  - `admin`
   - `path` (string): Allow to change the URL to access the admin (default: `/admin`).
   - `build`
-    - `host` (string): URL to access the admin panel (default: `http://localhost:1337/admin`).
-    - `backend` (string): URL that the admin panel and plugins will request (default: `http://localhost:1337`).
+    - `host` (string): URL to access the admin panel (default: `http://localhost:1450/admin`).
+    - `backend` (string): URL that the admin panel and plugins will request (default: `http://localhost:1450`).
       - `plugins`
         - `source` (string): Define the source mode (origin, host, custom).
         - `folder` (string): Indicate what the plugins folder in `host` source mode.

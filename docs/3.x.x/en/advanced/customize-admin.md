@@ -39,13 +39,13 @@ The administration panel can be customised according to your needs, so you can m
 
 ### Change access URL
 
-By default, the administration panel is exposed via [http://localhost:1337/admin](http://localhost:1337/admin). However, for security reasons, you can easily update this path.
+By default, the administration panel is exposed via [http://localhost:1450/admin](http://localhost:1450/admin). However, for security reasons, you can easily update this path.
 
 **Path —** `./config/environment/**/server.json`.
 ```json
 {
   "host": "localhost",
-  "port": 1337,
+  "port": 1450,
   "autoReload": {
     "enabled": true
   },
@@ -58,7 +58,7 @@ By default, the administration panel is exposed via [http://localhost:1337/admin
 }
 ```
 
-The panel will be available through [http://localhost:1337/dashboard](http://localhost:1337/dashboard) with the configurations above.
+The panel will be available through [http://localhost:1450/dashboard](http://localhost:1450/dashboard) with the configurations above.
 
 ### Development mode
 
@@ -105,7 +105,7 @@ To build the administration, run the following command from the `./admin` folder
 npm run build
 ```
 
-This will replace the folder's content located at `./admin/admin/build`. Visit http://localhost:1337/admin/ to make sure your updates have been taken in account.
+This will replace the folder's content located at `./admin/admin/build`. Visit http://localhost:1450/admin/ to make sure your updates have been taken in account.
 
 ***
 
@@ -121,7 +121,7 @@ Let's dive into the build configurations for each case.
 
 #### Deploy the entire project on the same server.
 
-You don't need to touch anything in your configuration file. This is the default behaviour and the build configurations will be automatically set. The server will start on the defined port and the administration panel will be accessible through http://yourdomain.com:1337/dashboard.
+You don't need to touch anything in your configuration file. This is the default behaviour and the build configurations will be automatically set. The server will start on the defined port and the administration panel will be accessible through http://yourdomain.com:1450/dashboard.
 
 You might want to change the path to access to the administration panel. Here the required configurations to change the path:
 
@@ -129,7 +129,7 @@ You might want to change the path to access to the administration panel. Here th
 ```js
 {
   "host": "localhost",
-  "port": 1337,
+  "port": 1450,
   "autoReload": {
     "enabled": false
   },
@@ -152,7 +152,7 @@ It's very common to deploy the front-end and the back-end on different servers. 
 ```js
 {
   "host": "localhost",
-  "port": 1337,
+  "port": 1450,
   "autoReload": {
     "enabled": false
   },
@@ -204,7 +204,7 @@ In this case, we suppose that you decided to put your administration and the plu
 ```js
 {
   "host": "localhost",
-  "port": 1337,
+  "port": 1450,
   "autoReload": {
     "enabled": false
   },

@@ -70,13 +70,13 @@ To add a new file attribute in your models, it's like adding a new association. 
 **Single file**
 
 ```
-curl -X POST -F 'files=@/path/to/pictures/file.jpg' http://localhost:1337/upload
+curl -X POST -F 'files=@/path/to/pictures/file.jpg' http://localhost:1450/upload
 ```
 
 **Multiple files**
 
 ```
-curl -X POST -F 'files[]=@/path/to/pictures/fileX.jpg' -F 'files[]=@/path/to/pictures/fileY.jpg' http://localhost:1337/upload
+curl -X POST -F 'files[]=@/path/to/pictures/fileX.jpg' -F 'files[]=@/path/to/pictures/fileY.jpg' http://localhost:1450/upload
 ```
 
 **Linking files to an entry**
@@ -118,5 +118,5 @@ Let's say that you want to have a `User` model provided by the plugin `Users & P
 
 Here the request to make to associate the file (/path/to/pictures/avatar.jpg) to the user (id: 5a993616b8e66660e8baf45c) when the `User` model is provided by the `Users & Permissions` plugin.
 ```
-curl -X POST -F 'files=@/path/to/pictures/avatar.jpg&refId=5a993616b8e66660e8baf45c&ref=user&source=users-permissions&field=avatar' http://localhost:1337/upload
+curl -X POST -F 'files=@/path/to/pictures/avatar.jpg&refId=5a993616b8e66660e8baf45c&ref=user&source=users-permissions&field=avatar' http://localhost:1450/upload
 ```

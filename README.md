@@ -1,45 +1,13 @@
-<p align="center"><img src="https://blog.mwapi.io/content/images/2017/10/logo.png" width="318px" /></p>
-<h3 align="center">API creation made simple, secure and fast.</h3>
-<p align="center">The most advanced open-source Content Management Framework to build powerful API with no effort.</p>
-<br />
-<p align="center">
-  <a href="https://www.npmjs.org/package/mwapi">
-    <img src="https://img.shields.io/npm/v/mwapi.svg" alt="Dependency Status" />
-  </a>
-  <a href="https://www.npmjs.org/package/mwapi">
-    <img src="https://img.shields.io/npm/dm/mwapi.svg" alt="Dependency Status" />
-  </a>
-  <a href="https://travis-ci.org/mwapi/mwapi">
-    <img src="https://travis-ci.org/mwapi/mwapi.svg?branch=master" alt="Dependency Status" />
-  </a>
-  <a href="http://slack.mwapi.io">
-    <img src="http://mwapi-slack.herokuapp.com/badge.svg" alt="Dependency Status" />
-  </a>
-</p>
+<h3 align="center">API creation made easy, secure and fast.</h3>
+<p align="center">An advanced open-source Content Management Framework to build powerful API with almost no effort.</p>
 
 <br>
 
-<p align="center"><img src="https://blog.mwapi.io/content/images/2017/10/Github-Preview.png" /></p>
+# Quick start
 
-<br>
+Web and mobile applications needed a powerful, simple to use and production-ready API-driven solution.
 
-## Quick start
-
-We've been working on a major update to mwapi for several months now, rewriting the core framework and the administration panel. Performances has been increased, Developer eXperience has been improved and a brand new plugins
-ecosystem has been introduced. **Both versions are available, we still recommend you to use v1 for production usage.**.
-
-<a href="https://heroku.com/deploy?template=https://github.com/mwapi/mwapi-heroku-app">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-
-#### Alpha
-
-The alpha has support for the latest version of Node.js (v8) and npm (v5).
-```bash
-npm install mwapi@alpha -g
-```
-
-#### Stable
+#### Install
 This is the production-ready version of mwapi (v1). You should also consider that the migration to v3 will not be easy due to many breaking changes.
 ```bash
 npm install mwapi -g
@@ -47,7 +15,33 @@ npm install mwapi -g
 
 Read the [Getting started](https://mwapi.io/getting-started) page to create your first project using mwapi.
 
-## Features
+## Create your first project
+
+Use the built-in CLI to generate your first project. Run this command and wait until the project is created.
+
+```bash
+mwapi new myProject
+```
+
+Then, enter in your project.
+
+```bash
+cd myProject
+```
+
+### Launch the server
+
+Now, you have to use another command of the CLI to run the server. And you will be done!
+
+> ️⚠️ Make sure that MongoDB is running on your machine before starting the server.
+
+```bash
+mwapi start
+```
+
+Open your browser and go to the administration panel (http://localhost:1450/admin) to create the first user.
+
+# Features
 
 - **Modern Admin Panel:**
   Elegant, entirely customizable and fully extensible admin panel.
@@ -58,9 +52,7 @@ Read the [Getting started](https://mwapi.io/getting-started) page to create your
 - **Powerful CLI:** Scaffold projects and APIs on the fly.
 - **SQL & NoSQL databases:** Work with Mongo as a main database, also supports Postgres, MySQL, etc.
 
-## Philosophy ?
-
-> At [mwapi](https://mwapi.io), everything we do we believe in changing the status quo of web development. Our products are simple to use, user friendly and production-ready.
+## Philosophy
 
 Web and mobile applications needed a powerful, simple to use and production-ready API-driven solution. That's why we created mwapi, an open-source Content Management Framework (CMF) for exposing your content (data, media) accross multi-devices.
 

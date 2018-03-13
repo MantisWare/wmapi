@@ -56,7 +56,7 @@ class mwapi extends EventEmitter {
       launchedAt: Date.now(),
       appPath: process.cwd(),
       host: process.env.HOST || process.env.HOSTNAME || 'localhost',
-      port: process.env.PORT || 1337,
+      port: process.env.PORT || 1450,
       environment: process.env.NODE_ENV || 'development',
       environments: {},
       paths: {

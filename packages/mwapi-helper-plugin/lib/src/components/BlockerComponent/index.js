@@ -54,7 +54,7 @@ const renderIde = () => (
           <br />
           &nbsp;"host": "localhost",
           <br />
-          &nbsp;"port": 1337,
+          &nbsp;"port": 1450,
           <br />
           <span style={{ color: '#006EE7'}}>
             &nbsp;"autoReload": true,

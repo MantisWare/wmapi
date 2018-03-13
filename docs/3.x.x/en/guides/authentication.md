@@ -9,7 +9,7 @@ This route lets you create new users.
 ```js
 $.ajax({
   type: 'POST',
-  url: 'http://localhost:1337/auth/local/register',
+  url: 'http://localhost:1450/auth/local/register',
   data: {
     username: 'mwapi user',
     email: 'user@mwapi.io',
@@ -37,7 +37,7 @@ This route lets you login your users by getting an authentication token.
 ```js
 $.ajax({
   type: 'POST',
-  url: 'http://localhost:1337/auth/local',
+  url: 'http://localhost:1450/auth/local',
   data: {
     identifier: 'user@mwapi.io',
     password: 'mwapiPassword'
@@ -90,7 +90,7 @@ By default, each API request is identified as `guest` role (see permissions of `
 ```js
 $.ajax({
   type: 'GET',
-  url: 'http://localhost:1337/article',
+  url: 'http://localhost:1450/article',
   headers: {
     Authorization: `Bearer ${token}`
   },
@@ -115,7 +115,7 @@ This action sends an email to a user with the link of you reset password page. T
 ```js
 $.ajax({
   type: 'POST',
-  url: 'http://localhost:1337/auth/forgot-password',
+  url: 'http://localhost:1450/auth/forgot-password',
   data: {
     email: 'user@mwapi.io',
     url: 'http://mon-site.com/rest-password'
@@ -142,7 +142,7 @@ This action will reset the user password.
 ```js
 $.ajax({
   type: 'POST',
-  url: 'http://localhost:1337/auth/reset-password',
+  url: 'http://localhost:1450/auth/reset-password',
   data: {
     code: 'privateCode',
     password: 'myNewPassword',

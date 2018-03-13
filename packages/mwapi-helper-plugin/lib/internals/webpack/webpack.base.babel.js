@@ -76,7 +76,7 @@ if (isAdmin && !isSetup) {
       }
 
       if (process.env.npm_lifecycle_event === 'start') {
-        URLs.backend = `http://${_.get(server, 'host', 'localhost')}:${_.get(server, 'port', 1337)}`;
+        URLs.backend = `http://${_.get(server, 'host', 'localhost')}:${_.get(server, 'port', 1450)}`;
       }
     }
   } catch (e) {

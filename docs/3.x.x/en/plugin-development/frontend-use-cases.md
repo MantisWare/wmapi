@@ -310,7 +310,7 @@ Let's say that you want to disable your plugin if the server autoReload config i
 ```
 {
   "host": "localhost",
-  "port": 1337,
+  "port": 1450,
   "autoReload": {
     "enabled": true
   },

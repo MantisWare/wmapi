@@ -2,7 +2,7 @@
 
 ## Description
 
-TODO
+Halfway between a CMS and a framework, mwapi takes advantages of both worlds.
 
 ## Contribute
 
