@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-settings-manager",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "mwapi plugin to manage settings.",
   "mwapi": {
     "name": "Settings Manager",
@@ -24,24 +24,24 @@
   },
   "devDependencies": {
     "flag-icon-css": "^2.8.0",
-    "mwapi-helper-plugin": "3.0.0-alpha.11",
+    "mwapi-helper-plugin": "3.0.0",
     "react-select": "^1.0.0-rc.5"
   },
   "author": {
     "name": "mwapi team",
-    "email": "hi@mwapi.io",
-    "url": "http://mwapi.io"
+    "email": "hi@m",
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "engines": {
     "node": ">= 9.0.0",

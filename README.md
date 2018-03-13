@@ -10,10 +10,10 @@ Web and mobile applications needed a powerful, simple to use and production-read
 #### Install
 This is the production-ready version of mwapi (v1). You should also consider that the migration to v3 will not be easy due to many breaking changes.
 ```bash
-npm install mwapi -g
+npm install mwapi-cli -g
 ```
 
-Read the [Getting started](https://mwapi.io/getting-started) page to create your first project using mwapi.
+Read the [Getting started](https://#/getting-started) page to create your first project using mwapi.
 
 ## Create your first project
 

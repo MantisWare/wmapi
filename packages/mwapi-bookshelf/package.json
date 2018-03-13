@@ -1,8 +1,8 @@
 {
   "name": "mwapi-bookshelf",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "Bookshelf hook for the mwapi framework",
-  "homepage": "http://mwapi.io",
+  "homepage": "http://#",
   "keywords": [
     "bookshelf",
     "hook",
@@ -19,8 +19,8 @@
     "bookshelf": "^0.12.1",
     "lodash": "^4.17.4",
     "pluralize": "^6.0.0",
-    "mwapi-knex": "3.0.0-alpha.11",
-    "mwapi-utils": "3.0.0-alpha.11"
+    "mwapi-knex": "3.0.0",
+    "mwapi-utils": "3.0.0"
   },
   "mwapi": {
     "isHook": true,
@@ -32,23 +32,23 @@
     "prepublishOnly": "npm prune"
   },
   "author": {
-    "email": "hi@mwapi.io",
+    "email": "hi@m",
     "name": "mwapi team",
-    "url": "http://mwapi.io"
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "bugs": {
-    "url": "https://github.com/mwapi/mwapi/issues"
+    "url": "https://github.com/MantisWare/mwapi/issues"
   },
   "engines": {
     "node": ">= 9.0.0",

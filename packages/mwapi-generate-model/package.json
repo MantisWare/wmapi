@@ -1,8 +1,8 @@
 {
   "name": "mwapi-generate-model",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "Generate a model for a mwapi API.",
-  "homepage": "http://mwapi.io",
+  "homepage": "http://#",
   "keywords": [
     "generate",
     "generator",
@@ -20,23 +20,23 @@
     "prepublish": "npm prune"
   },
   "author": {
-    "email": "hi@mwapi.io",
+    "email": "hi@m",
     "name": "mwapi team",
-    "url": "http://mwapi.io"
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "bugs": {
-    "url": "https://github.com/mwapi/mwapi/issues"
+    "url": "https://github.com/MantisWare/mwapi/issues"
   },
   "engines": {
     "node": ">= 9.0.0",

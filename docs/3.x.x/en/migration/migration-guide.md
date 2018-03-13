@@ -10,7 +10,7 @@ To be honest with all of you, the migration process won't be easy. The new versi
 - Removed middlewares from core (koa-graphql, koa-proxy, koa-ssl, koa-views).
 - Better error handling with Boom.
 
-> Feel free to [join us on Slack](http://slack.mwapi.io) and ask questions about the migration process.
+> Feel free to [join us on Slack](http://slack.#) and ask questions about the migration process.
 
 ## Getting started
 

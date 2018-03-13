@@ -90,7 +90,7 @@ module.exports = {
   getPlugins: (plugin, lang = 'en') => {
     return new Promise((resolve, reject) => {
       request({
-        uri: `https://marketplace.mwapi.io/plugins?lang=${lang}`,
+        uri: `https://marketplace.#/plugins?lang=${lang}`,
         json: true,
         headers: {
           'cache-control': 'max-age=3600'

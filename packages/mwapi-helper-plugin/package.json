@@ -1,21 +1,21 @@
 {
   "name": "mwapi-helper-plugin",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "Helper for mwapi plugins development",
   "engines": {
     "node": ">= 9.0.0",
     "npm": ">= 5.3.0"
   },
   "author": {
-    "email": "hi@mwapi.io",
+    "email": "hi@m",
     "name": "mwapi team",
-    "url": "http://mwapi.io"
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "license": "MIT",

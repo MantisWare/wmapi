@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-email",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "This is the description of the plugin.",
   "mwapi": {
     "name": "Email",
@@ -26,23 +26,23 @@
     "sendmail": "^1.2.0"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0-alpha.11"
+    "mwapi-helper-plugin": "3.0.0"
   },
   "author": {
     "name": "mwapi team",
-    "email": "hi@mwapi.io",
-    "url": "http://mwapi.io"
+    "email": "hi@m",
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "engines": {
     "node": ">= 7.0.0",

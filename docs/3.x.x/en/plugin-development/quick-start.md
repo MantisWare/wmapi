@@ -6,7 +6,7 @@ To facilitate the development of a plugin, we drastically reduce the amount of c
 
 To setup the development environment please **follow the instructions below:**
 
-1. [Fork the repository](https://github.com/mwapi/mwapi) to your own GitHub account.
+1. [Fork the repository](https://github.com/MantisWare/mwapi) to your own GitHub account.
 2. Clone it to your computer `git clone git@github.com:mwapi/mwapi.git`.
 3. Run `npm run setup` at the root of the directory.
 

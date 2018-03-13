@@ -7,10 +7,10 @@ theme_dir: ./website/theme
 site_name: "mwapi"
 site_description: "Node.js framework powering API-driven web and mobile applications."
 site_author: "mwapi"
-site_url: "http://mwapi.io/"
+site_url: "http://#/"
 
 repo_name: "mwapi"
-repo_url: "https://github.com/mwapi/mwapi"
+repo_url: "https://github.com/MantisWare/mwapi"
 
 markdown_extensions:
   - admonition

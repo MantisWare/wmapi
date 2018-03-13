@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-upload",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "This is the description of the plugin.",
   "mwapi": {
     "name": "Files Upload",
@@ -23,13 +23,13 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "mwapi-upload-local": "3.0.0-alpha.11",
+    "mwapi-upload-local": "3.0.0",
     "react-copy-to-clipboard": "^5.0.1",
     "stream-to-array": "^2.3.0",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0-alpha.11"
+    "mwapi-helper-plugin": "3.0.0"
   },
   "author": {
     "name": "A mwapi developer",

@@ -21,7 +21,7 @@ import styles from './styles.scss';
 /* eslint-disable  jsx-a11y/anchor-has-content */
 export class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
-    const links = ['https://stackoverflow.com/questions/tagged/mwapi', 'https://github.com/mwapi/mwapi/issues', 'https://slack.mwapi.io/'];
+    const links = ['https://stackoverflow.com/questions/tagged/mwapi', 'https://github.com/MantisWare/mwapi/issues', 'https://slack.#/'];
     return (
       <div className={styles.wrapper}>
         <Helmet

@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-users-permissions",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "Protect your API with a full-authentication process based on JWT",
   "mwapi": {
     "name": "Roles & Permissions",
@@ -32,23 +32,23 @@
     "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0-alpha.11"
+    "mwapi-helper-plugin": "3.0.0"
   },
   "author": {
     "name": "mwapi team",
-    "email": "hi@mwapi.io",
-    "url": "http://mwapi.io"
+    "email": "hi@m",
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "engines": {
     "node": ">= 7.0.0",

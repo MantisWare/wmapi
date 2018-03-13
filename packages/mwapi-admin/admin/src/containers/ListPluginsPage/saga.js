@@ -53,7 +53,7 @@ export function* pluginsGet() {
     };
 
     // Fetch plugins informations.
-    const availablePlugins = yield call(request, 'https://marketplace.mwapi.io/plugins', opts);
+    const availablePlugins = yield call(request, 'https://marketplace.#/plugins', opts);
 
     // Add logo URL to object.
     Object.keys(response[0].plugins).map(name => {

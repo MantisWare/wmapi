@@ -148,7 +148,7 @@ class PopUpForm extends React.Component { // eslint-disable-line react/prefer-st
 
     const params = {
       link: (
-        <a href="https://github.com/mwapi/mwapi/blob/master/packages/mwapi-plugin-users-permissions/docs/email-templates.md" target="_blank">
+        <a href="https://github.com/MantisWare/mwapi/blob/master/packages/mwapi-plugin-users-permissions/docs/email-templates.md" target="_blank">
           <FormattedMessage id="users-permissions.PopUpForm.Email.link.documentation" />
         </a>
       ),

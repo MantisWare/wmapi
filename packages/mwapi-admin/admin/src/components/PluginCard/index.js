@@ -137,7 +137,7 @@ class PluginCard extends React.Component {
                 onClick={this.handleDownloadPlugin}
               />
               <a
-                href="https://mwapi.io/shop"
+                href="https://#/shop"
                 style={{ display: 'none' }}
                 ref={(a) => { this.aTag = a; }}
                 target="_blank"

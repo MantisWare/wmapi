@@ -1,16 +1,16 @@
 # Contribute to the project
 
-mwapi is an open-source project administered by [the mwapi team](http://mwapi.io).
+mwapi is an open-source project administered by [the mwapi team](http://#).
 
 We welcome and encourage everyone who want to help us on mwapi.
 
-Before contributing, ensure that your effort is aligned with the project's roadmap by talking to the maintainers, especially if you are going to spend a lot of time on it. Feel free to [join us on Slack](http://slack.mwapi.io) if you are interested in helping us or [drop us an email](mailto:hi@mwapi.io) if you are interested in working with us.
+Before contributing, ensure that your effort is aligned with the project's roadmap by talking to the maintainers, especially if you are going to spend a lot of time on it. Feel free to [join us on Slack](http://slack.#) if you are interested in helping us or [drop us an email](mailto:hi@m) if you are interested in working with us.
 
 ### Open Development & Community Driven
-mwapi is open-source under the [MIT license](https://github.com/mwapi/mwapi/blob/master/LICENSE.md). All the work done is available on GitHub.
+mwapi is open-source under the [MIT license](https://github.com/MantisWare/mwapi/blob/master/LICENSE.md). All the work done is available on GitHub.
 The core team and the contributors send pull requests which go through the same validation process.
 
-Every user can send a feature request using the [issues](https://github.com/mwapi/mwapi/issues) on GitHub.
+Every user can send a feature request using the [issues](https://github.com/MantisWare/mwapi/issues) on GitHub.
 
 
 ### Repository Organization
@@ -28,7 +28,7 @@ To facilitate the contribution, we drastically reduce the amount of commands nec
 
 **Then, please follow the instructions below:**
 
-1. [Fork the repository](https://github.com/mwapi/mwapi) to your own GitHub account.
+1. [Fork the repository](https://github.com/MantisWare/mwapi) to your own GitHub account.
 2. Clone it to your computer `git clone git@github.com:mwapi/mwapi.git`.
 3. Run `npm run setup` at the root of the directory.
 
@@ -72,9 +72,9 @@ The mwapi team have npm publishing rights for modules and also has the final say
 ## Reporting an issue
 
 Before reporting an issue you need to make sure:
-- You are experiencing a concrete technical issue with mwapi (ideas and feature proposals should happen [on Slack](http://slack.mwapi.io)).
-- You are not asking a question about how to use mwapi or about whether or not mwapi has a certain feature. For general help using mwapi, please refer to [the official mwapi documentation](http://mwapi.io). For additional help, ask a question on [StackOverflow](http://stackoverflow.com/questions/tagged/mwapi).
-- You have already searched for related [issues](https://github.com/mwapi/mwapi/issues), and found none open (if you found a related _closed_ issue, please link to it in your post).
+- You are experiencing a concrete technical issue with mwapi (ideas and feature proposals should happen [on Slack](http://slack.#)).
+- You are not asking a question about how to use mwapi or about whether or not mwapi has a certain feature. For general help using mwapi, please refer to [the official mwapi documentation](http://#). For additional help, ask a question on [StackOverflow](http://stackoverflow.com/questions/tagged/mwapi).
+- You have already searched for related [issues](https://github.com/MantisWare/mwapi/issues), and found none open (if you found a related _closed_ issue, please link to it in your post).
 - Your issue title is concise, on-topic and polite.
 - You can provide steps to reproduce this issue that others can follow.
 - You have tried all the following (if relevant) and your issue remains:
@@ -91,7 +91,7 @@ Before reporting an issue you need to make sure:
 
 ## Code of Conduct
 
-[The mwapi team](https://mwapi.io/company) is committed to fostering a welcoming community for mwapi. If you encounter any unacceptable behavior, follow these steps to report the issue to the team. We are here to help.
+[The mwapi team](https://#/company) is committed to fostering a welcoming community for mwapi. If you encounter any unacceptable behavior, follow these steps to report the issue to the team. We are here to help.
 
 ### Our Pledge
 
@@ -125,6 +125,6 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 ### Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the support team at [support@mwapi.io](mailto:support@mwapi.io). All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the support team at [support@m](mailto:support@m). All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
 Project maintainers and contributors who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.

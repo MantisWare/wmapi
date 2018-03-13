@@ -120,7 +120,7 @@ module.exports = mwapi => {
 
         // Finally, use the client via `knex`.
         // If anyone has a solution to use different paths for `knex` and clients
-        // please drop us an email at support@mwapi.io-- it would avoid the mwapi
+        // please drop us an email at support@m-- it would avoid the mwapi
         // applications to have `knex` as a dependency.
         try {
           // Try to require from local dependency.

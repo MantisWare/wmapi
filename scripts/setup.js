@@ -71,9 +71,9 @@ shell.cd('../mwapi-mongoose');
 watcher('', 'npm install ../mwapi-utils');
 watcher('📦  Linking mwapi-mongoose...', 'npm link');
 
-shell.cd('../mwapi');
+shell.cd('../mwapi-cli');
 watcher('', 'npm install ../mwapi-generate ../mwapi-generate-admin ../mwapi-generate-api ../mwapi-generate-new ../mwapi-generate-plugin ../mwapi-generate-policy ../mwapi-generate-service ../mwapi-utils');
-watcher('📦  Linking mwapi...', 'npm link');
+watcher('📦  Linking mwapi-cli...', 'npm link');
 
 shell.cd('../mwapi-plugin-email');
 watcher('', 'npm install ../mwapi-helper-plugin --no-optional');

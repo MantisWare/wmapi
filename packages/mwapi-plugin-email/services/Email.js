@@ -16,8 +16,8 @@ module.exports = {
     return new Promise((resolve, reject) => {
       // Default values.
       options = _.isObject(options) ? options : {};
-      options.from = options.from || '"Administration Panel" <no-reply@mwapi.io>';
-      options.replyTo = options.replyTo || '"Administration Panel" <no-reply@mwapi.io>';
+      options.from = options.from || '"Administration Panel" <no-reply@m>';
+      options.replyTo = options.replyTo || '"Administration Panel" <no-reply@m>';
       options.text = options.text || options.html;
       options.html = options.html || options.text;
 

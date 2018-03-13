@@ -38,7 +38,7 @@ Add custom configurations to the project. The content of this file is available 
 **Path —** `./config/custom.json`.
 ```json
 {
-  "backendURL": "http://www.mwapi.io",
+  "backendURL": "http://www.#",
   "mainColor": "blue"
 }
 ```

@@ -17,7 +17,7 @@
   "pluginsConfig": {
     "edit-link": {
       "label": "Edit This Page",
-      "base": "https://github.com/mwapi/mwapi/tree/master/docs/3.x.x"
+      "base": "https://github.com/MantisWare/mwapi/tree/master/docs/3.x.x"
     },
     "ga": {
       "token": "0"

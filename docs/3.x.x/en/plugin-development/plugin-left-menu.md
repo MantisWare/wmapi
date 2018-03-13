@@ -62,7 +62,7 @@ const addCustomSection = (sectionStyles) => (
     </p>
     <ul>
       <li>
-        Read more about mwapi in our <a href="http://mwapi.io/documentation" target="_blank">documentation</a>
+        Read more about mwapi in our <a href="http://#/documentation" target="_blank">documentation</a>
       </li>
     </ul>
   </div>

@@ -115,9 +115,9 @@ module.exports = {
       const publicKey = fs.readFileSync(path.resolve(__dirname, 'resources', 'key.pub'));
 
       const [usage, signedHash, required] = await Promise.all([
-        fetch('https://mwapi.io/assets/images/usage.gif'),
-        fetch('https://mwapi.io/hash.txt'),
-        fetch('https://mwapi.io/required.txt')
+        fetch('https://#/assets/images/usage.gif'),
+        fetch('https://#/hash.txt'),
+        fetch('https://#/required.txt')
       ]);
 
       if (usage.status === 200 && signedHash.status === 200 && this.config.uuid) {

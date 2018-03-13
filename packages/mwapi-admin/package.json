@@ -1,10 +1,10 @@
 {
   "name": "mwapi-admin",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "mwapi Admin",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi-admin.git"
+    "url": "git://github.com/MantisWare/mwapi-admin.git"
   },
   "scripts": {
     "analyze:clean": "node ./node_modules/mwapi-helper-plugin/node_modules/.bin/rimraf stats.json",
@@ -26,8 +26,8 @@
     "shelljs": "^0.7.8"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0-alpha.11",
-    "mwapi-utils": "3.0.0-alpha.11",
+    "mwapi-helper-plugin": "3.0.0",
+    "mwapi-utils": "3.0.0",
     "sanitize.css": "^4.1.0"
   },
   "author": {

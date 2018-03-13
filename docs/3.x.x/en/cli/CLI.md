@@ -24,7 +24,7 @@ options: [--dev|--dbclient=<dbclient> --dbhost=<dbhost> --dbport=<dbport> --dbna
   Generates a new project called **&#60;name&#62;** and skip the interactive database configuration and initilize with these options. **&#60;dbclient&#62;** can be `mongo`, `postgres`, `mysql`, `sqlite3` or `redis`. **&#60;dbusername&#62;** and **&#60;dbpassword&#62;** are optional.
   
 
-  See the [CONTRIBUTING guide](https://github.com/mwapi/mwapi/blob/master/CONTRIBUTING.md) for more details.
+  See the [CONTRIBUTING guide](https://github.com/MantisWare/mwapi/blob/master/CONTRIBUTING.md) for more details.
 
 ***
 
@@ -197,7 +197,7 @@ options: [--dev]
 
   Example: `mwapi install content-type-builder --dev` will create a symlink from `/path/to/the/repository/packages/mwapi-plugin-content-type-builder` to `./plugins/content-type-builder`.
 
-> Checkout the [CONTRIBUTING guide](https://github.com/mwapi/mwapi/blob/master/CONTRIBUTING.md) for more details about the local mwapi development workflow.
+> Checkout the [CONTRIBUTING guide](https://github.com/MantisWare/mwapi/blob/master/CONTRIBUTING.md) for more details about the local mwapi development workflow.
 
 
 > **Note: You have to restart the server to load the plugin into your project.**

@@ -154,7 +154,7 @@ module.exports = {
 
 ### Advanced usage
 
-Each function in the query file is bound with the ORM's model. It means that you can create generic query very easily. This feature is useful for CRUD such as we did in the [Content Manager plugin](https://github.com/mwapi/mwapi/tree/master/packages/mwapi-plugin-content-manager/config/queries).
+Each function in the query file is bound with the ORM's model. It means that you can create generic query very easily. This feature is useful for CRUD such as we did in the [Content Manager plugin](https://github.com/MantisWare/mwapi/tree/master/packages/mwapi-plugin-content-manager/config/queries).
 
 Mongoose ORM generic queries:
 

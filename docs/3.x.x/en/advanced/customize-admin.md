@@ -2,7 +2,7 @@
 
 One of mwapi's main feature is its fully extendable and customizable admin panel. This section explains how the admin panel section is structured and how to customize it.
 
-See the [Contributing Guide](https://github.com/mwapi/mwapi/blob/master/.github/CONTRIBUTING.md) for informations on how to develop the mwapi's admin interface.
+See the [Contributing Guide](https://github.com/MantisWare/mwapi/blob/master/.github/CONTRIBUTING.md) for informations on how to develop the mwapi's admin interface.
 
 ## Files structure
 

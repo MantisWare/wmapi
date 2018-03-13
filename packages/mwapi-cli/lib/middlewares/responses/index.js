@@ -23,7 +23,7 @@ module.exports = () => {
 
         // Set X-Powered-By header.
         if (_.get(mwapi.config, 'X-Powered-By.enabled', true)) {
-          ctx.set('X-Powered-By', 'mwapi <mwapi.io>');
+          ctx.set('X-Powered-By', 'mwapi <#>');
         }
       });
       cb();

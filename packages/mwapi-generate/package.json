@@ -1,8 +1,8 @@
 {
   "name": "mwapi-generate",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "Master of ceremonies for the mwapi generators.",
-  "homepage": "http://mwapi.io",
+  "homepage": "http://#",
   "keywords": [
     "generate",
     "generator",
@@ -16,27 +16,27 @@
     "async": "^2.5.0",
     "fs-extra": "^4.0.0",
     "lodash": "^4.17.4",
-    "mwapi-utils": "3.0.0-alpha.11",
+    "mwapi-utils": "3.0.0",
     "reportback": "^2.0.1"
   },
   "author": {
     "name": "mwapi team",
-    "email": "hi@mwapi.io",
-    "url": "http://mwapi.io"
+    "email": "hi@m",
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "bugs": {
-    "url": "https://github.com/mwapi/mwapi/issues"
+    "url": "https://github.com/MantisWare/mwapi/issues"
   },
   "engines": {
     "node": ">= 9.0.0",

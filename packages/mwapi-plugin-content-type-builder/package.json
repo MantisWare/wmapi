@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-content-type-builder",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "mwapi plugin to create content type (API).",
   "mwapi": {
     "name": "Content Type Builder",
@@ -23,28 +23,28 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "mwapi-generate": "3.0.0-alpha.11",
-    "mwapi-generate-api": "3.0.0-alpha.11",
+    "mwapi-generate": "3.0.0",
+    "mwapi-generate-api": "3.0.0",
     "pluralize": "^7.0.0"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0-alpha.11"
+    "mwapi-helper-plugin": "3.0.0"
   },
   "author": {
     "name": "mwapi team",
-    "email": "hi@mwapi.io",
-    "url": "http://mwapi.io"
+    "email": "hi@m",
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "engines": {
     "node": ">= 9.0.0",

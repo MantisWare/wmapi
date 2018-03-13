@@ -19,7 +19,7 @@ function NoTableWarning({ modelName }) {
         <FormattedMessage id="content-type-builder.noTableWarning.description" values={{ modelName }} />
       </div>
       <div className={styles.buttonContainer}>
-        <a href="https://mwapi.io/documentation/guides/models.html#bookshelf" target="_blank">
+        <a href="https://#/documentation/guides/models.html#bookshelf" target="_blank">
           <button>
             <FormattedMessage id="content-type-builder.noTableWarning.infos" />
           </button>

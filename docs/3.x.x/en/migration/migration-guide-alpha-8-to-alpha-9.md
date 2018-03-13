@@ -5,12 +5,12 @@
 - Put roles' permissions in database
 - Providers connection (Facebook, GitHub, ...)
 
-> Feel free to [join us on Slack](http://slack.mwapi.io) and ask questions about the migration process.
+> Feel free to [join us on Slack](http://slack.#) and ask questions about the migration process.
 
 
 ## Getting started
 
-Install mwapi `alpha.9` globally on your computer. To do so run `npm install mwapi@3.0.0-alpha.9 -g`.
+Install mwapi globally on your computer. To do so run `npm install mwapi-cli -g`.
 
 When it's done, generate a new empty project `mwapi new myNewProject` (don't pay attention to the database configuration).
 

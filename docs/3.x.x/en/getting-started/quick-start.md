@@ -242,4 +242,4 @@ $.ajax({
 
 Congratulations! You successfully finished the Getting Started guide! Read the [concepts](../concepts/concepts.md) to understand more advanced concepts.
 
-Also, feel free to join the community thanks to the different channels listed in the [community page](http://mwapi.io/community): team members, contributors and developers will be happy to help you.
+Also, feel free to join the community thanks to the different channels listed in the [community page](http://#/community): team members, contributors and developers will be happy to help you.

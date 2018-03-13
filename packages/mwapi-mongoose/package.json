@@ -1,8 +1,8 @@
 {
   "name": "mwapi-mongoose",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0",
   "description": "Mongoose hook for the mwapi framework",
-  "homepage": "http://mwapi.io",
+  "homepage": "http://#",
   "keywords": [
     "mongoose",
     "hook",
@@ -18,30 +18,37 @@
     "lodash": "^4.17.4",
     "mongoose": "^5.0.4",
     "mongoose-float": "^1.0.2",
-    "mwapi-utils": "3.0.0-alpha.11",
+    "mwapi-generate": "3.0.0",
+    "mwapi-generate-admin": "3.0.0",
+    "mwapi-generate-api": "3.0.0",
+    "mwapi-generate-new": "3.0.0",
+    "mwapi-generate-plugin": "3.0.0",
+    "mwapi-generate-policy": "3.0.0",
+    "mwapi-generate-service": "3.0.0",
+    "mwapi-utils": "3.0.0",
     "pluralize": "^6.0.0"
   },
   "mwapi": {
     "isHook": true
   },
   "author": {
-    "email": "hi@mwapi.io",
+    "email": "hi@m",
     "name": "mwapi team",
-    "url": "http://mwapi.io"
+    "url": "http://#"
   },
   "maintainers": [
     {
       "name": "mwapi team",
-      "email": "hi@mwapi.io",
-      "url": "http://mwapi.io"
+      "email": "hi@m",
+      "url": "http://#"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mwapi/mwapi.git"
+    "url": "git://github.com/MantisWare/mwapi.git"
   },
   "bugs": {
-    "url": "https://github.com/mwapi/mwapi/issues"
+    "url": "https://github.com/MantisWare/mwapi/issues"
   },
   "engines": {
     "node": ">= 9.0.0",

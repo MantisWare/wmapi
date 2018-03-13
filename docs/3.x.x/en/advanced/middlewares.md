@@ -11,7 +11,7 @@ Enable the middleware in environments settings
   }
 ```
 
-**Path —** [`mwapi/lib/middlewares/responseTime/index.js`](https://github.com/mwapi/mwapi/blob/master/packages/mwapi/lib/middlewares/responseTime/index.js).
+**Path —** [`mwapi/lib/middlewares/responseTime/index.js`](https://github.com/MantisWare/mwapi/blob/master/packages/mwapi/lib/middlewares/responseTime/index.js).
 ```js
 module.exports = mwapi => {
   return {

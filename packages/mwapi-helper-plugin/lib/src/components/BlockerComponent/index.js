@@ -81,7 +81,7 @@ const renderIde = () => (
 
 const renderButton = () => (
   <div className={styles.buttonContainer}>
-    <a className={cn(styles.primary, 'btn')} href="http://mwapi.io" target="_blank">Read the documentation</a>
+    <a className={cn(styles.primary, 'btn')} href="http://#" target="_blank">Read the documentation</a>
   </div>
 );
 

@@ -65,7 +65,7 @@ export function* pluginsGet() {
     };
 
     // Retrieve plugins list.
-    const availablePlugins = yield call(request, 'https://marketplace.mwapi.io/plugins', opts);
+    const availablePlugins = yield call(request, 'https://marketplace.#/plugins', opts);
 
     // Add support us card to the plugins list.
     const supportUs = {

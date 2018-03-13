@@ -12,7 +12,7 @@ $.ajax({
   url: 'http://localhost:1450/auth/local/register',
   data: {
     username: 'mwapi user',
-    email: 'user@mwapi.io',
+    email: 'user@m',
     password: 'mwapiPassword'
   },
   done: function(auth) {
@@ -39,7 +39,7 @@ $.ajax({
   type: 'POST',
   url: 'http://localhost:1450/auth/local',
   data: {
-    identifier: 'user@mwapi.io',
+    identifier: 'user@m',
     password: 'mwapiPassword'
   },
   done: function(auth) {
@@ -117,7 +117,7 @@ $.ajax({
   type: 'POST',
   url: 'http://localhost:1450/auth/forgot-password',
   data: {
-    email: 'user@mwapi.io',
+    email: 'user@m',
     url: 'http://mon-site.com/rest-password'
   },
   done: function() {
@@ -159,4 +159,4 @@ $.ajax({
 
 ## Email templates
 
-[See the documentation on GitHub](https://github.com/mwapi/mwapi/blob/master/packages/mwapi-plugin-users-permissions/docs/email-templates.md)
+[See the documentation on GitHub](https://github.com/MantisWare/mwapi/blob/master/packages/mwapi-plugin-users-permissions/docs/email-templates.md)

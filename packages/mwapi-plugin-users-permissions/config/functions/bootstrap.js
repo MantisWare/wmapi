@@ -87,7 +87,7 @@ module.exports = async cb => {
         options: {
           from: {
             name: 'Administration Panel',
-            email: 'no-reply@mwapi.io'
+            email: 'no-reply@m'
           },
           response_email: '',
           object: '­Reset password 🔑 ',

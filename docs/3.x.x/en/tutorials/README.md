@@ -4,7 +4,7 @@ Go further with mwapi, official and community tutorials are here to help you:
 
 ### Getting Started
 
- - [Getting Started guide](https://mwapi.io/getting-started)
+ - [Getting Started guide](https://#/getting-started)
  - [Quickstart with Docker](https://medium.com/mwapi/mwapi-quickstart-with-docker-d77ca7c86c1f)
 
 ### Development

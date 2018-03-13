@@ -6,7 +6,7 @@ This plugin allows you to manage your data through a UI.
 
 ## Contributing
 
-NB: Please refers to the contributing section of the [monorepo](https://github.com/mwapi/mwapi)
+NB: Please refers to the contributing section of the [monorepo](https://github.com/MantisWare/mwapi)
 
 1. Create a new mwapi application: `mwapi new myApp`.
 2. Go to your new mwapi app `cd myApp`.

@@ -124,7 +124,7 @@ export class ModelPage extends React.Component { // eslint-disable-line react/pr
           <FormattedMessage id="content-type-builder.menu.section.documentation.guide" />&nbsp;
           <FormattedMessage id="content-type-builder.menu.section.documentation.guideLink">
             {(message) => (
-              <a href="http://mwapi.io/documentation/3.x.x/guides/models.html" target="_blank">{message}</a>
+              <a href="http://#/documentation/3.x.x/guides/models.html" target="_blank">{message}</a>
             )}
           </FormattedMessage>
         </li>

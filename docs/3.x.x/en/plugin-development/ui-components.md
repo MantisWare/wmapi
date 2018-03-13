@@ -312,7 +312,7 @@ class FooPage extends React.Component {
           didCheckErrors={this.state.error}
           inputDescription="my-plugin.form.input.inputDescription"
           label="my-plugin.form.input.label"
-          linkContent={{ link: 'https://mwapi.io/documentation/', description: 'my-plugin.form.input.linkContent.description' }}
+          linkContent={{ link: 'https://#/documentation/', description: 'my-plugin.form.input.linkContent.description' }}
           onChange={this.handleChange}
           type="string"
           validations={{ required: true }}
@@ -375,7 +375,7 @@ function Foo({ onChange, value }) {
       {/* Usage with function */}
       <InputText name="email" value={value} onChange={onChange} />
       <InputDescription
-        message={ () => <span>Don&#44;t know how to set variables, <a href="mwapi.io" target="_blank">check out our doc!</a></span>}
+        message={ () => <span>Don&#44;t know how to set variables, <a href="#" target="_blank">check out our doc!</a></span>}
       />
 
       {/* Usage with i18n and rich text formatting */}
@@ -384,7 +384,7 @@ function Foo({ onChange, value }) {
         message={{
           id: 'my-plugin.Email.inputDescription',
           params: {
-            documentationLink: <a href="mwapi.io" target="_blank">check out our doc!</a>
+            documentationLink: <a href="#" target="_blank">check out our doc!</a>
           }
         }}
       />
@@ -748,7 +748,7 @@ Component integrates Label, InputText, InputDescription and InputErrors.
                 onChange={this.handleChange}
                 label={{
                   id: 'my-plugin.inputFoo.label',
-                  params: { name: <a href="mwapi.io" target="_blank">Click me</a> }
+                  params: { name: <a href="#" target="_blank">Click me</a> }
                 }}
                 value={foo}
                 validations={{ required: true }}
