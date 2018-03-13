@@ -58,28 +58,6 @@ Web and mobile applications needed a powerful, simple to use and production-read
 
 Halfway between a CMS and a framework, mwapi takes advantages of both worlds. A powerful dashboard to easily manage your content with a flexible framework layer to develop and integrate specific features.
 
-## Support
-
-For more information on the upcoming version, please take a look to our [ROADMAP](ROADMAP.md).
-
-### Community support
-
-For general help using mwapi, please refer to [the official mwapi documentation](https://mwapi.io/documentation/). For additional help, you can use one of this channel to ask question:
-
-- [StackOverflow](http://stackoverflow.com/questions/tagged/mwapi)
-- [Slack](http://slack.mwapi.io) (highly recommended for realtime support)
-- [GitHub](https://github.com/mwapi/mwapi)
-- [Twitter](https://twitter.com/mwapijs)
-- [Facebook](https://www.facebook.com/mwapi-616063331867161).
-
-### Professional support
-
-[mwapi Solutions](https://mwapi.io), the company behind mwapi, provides a full range of solutions to get better results, faster. We're always looking for the next challenge: coaching, consulting, training, customization, etc. [Drop us an email](mailto:support@mwapi.io) to see how we can help you.
-
-### Migration
-
-Follow our [migration guides](https://mwapi.io/documentation/migration/migration-guide.html) on the website to keep your mwapi projects updated.
-
 ## License
 
-[MIT License](LICENSE.md) Copyright (c) 2015-2018 [mwapi Solutions](https://mwapi.io/).
+[MIT License](LICENSE.md) Copyright (c) 2015-2018.
