@@ -87,8 +87,8 @@ window.onload = function onLoad() {
   }
 };
 
-// Don't inject plugins in development mode.
-if (window.location.port !== '4000') {
+//## -- Removed -- Don't inject plugins in development mode.
+if (window.location.port !== '0') {
   fetch(`${mwapi.remoteURL}/config/plugins.json`)
     .then(response => {
       return response.json();
