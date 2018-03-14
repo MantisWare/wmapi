@@ -1,6 +1,6 @@
 {
   "name": "mwapi-knex",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Knex hook for the mwapi framework",
   "homepage": "http://#",
   "keywords": [

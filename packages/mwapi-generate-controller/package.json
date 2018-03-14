@@ -1,6 +1,6 @@
 {
   "name": "mwapi-generate-controller",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Generate a controller for a mwapi API.",
   "homepage": "http://#",
   "keywords": [

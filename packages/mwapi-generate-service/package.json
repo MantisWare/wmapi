@@ -1,6 +1,6 @@
 {
   "name": "mwapi-generate-service",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Generate a service for a mwapi API.",
   "homepage": "http://#",
   "keywords": [

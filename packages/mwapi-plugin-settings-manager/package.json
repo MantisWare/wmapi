@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-settings-manager",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "mwapi plugin to manage settings.",
   "mwapi": {
     "name": "Settings Manager",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "flag-icon-css": "^2.8.0",
-    "mwapi-helper-plugin": "3.0.0",
+    "mwapi-helper-plugin": "3.0.1",
     "react-select": "^1.0.0-rc.5"
   },
   "author": {

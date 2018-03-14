@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-email",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "This is the description of the plugin.",
   "mwapi": {
     "name": "Email",
@@ -26,7 +26,7 @@
     "sendmail": "^1.2.0"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0"
+    "mwapi-helper-plugin": "3.0.1"
   },
   "author": {
     "name": "mwapi team",

@@ -1,6 +1,6 @@
 {
   "name": "mwapi-upload-local",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Local provider for mwapi upload",
   "homepage": "http://#",
   "keywords": [

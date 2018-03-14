@@ -1,6 +1,6 @@
 {
   "name": "mwapi-bookshelf",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Bookshelf hook for the mwapi framework",
   "homepage": "http://#",
   "keywords": [
@@ -19,8 +19,8 @@
     "bookshelf": "^0.12.1",
     "lodash": "^4.17.4",
     "pluralize": "^6.0.0",
-    "mwapi-knex": "3.0.0",
-    "mwapi-utils": "3.0.0"
+    "mwapi-knex": "3.0.1",
+    "mwapi-utils": "3.0.1"
   },
   "mwapi": {
     "isHook": true,

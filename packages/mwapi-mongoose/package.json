@@ -1,6 +1,6 @@
 {
   "name": "mwapi-mongoose",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Mongoose hook for the mwapi framework",
   "homepage": "http://#",
   "keywords": [
@@ -18,14 +18,14 @@
     "lodash": "^4.17.4",
     "mongoose": "^5.0.4",
     "mongoose-float": "^1.0.2",
-    "mwapi-generate": "3.0.0",
-    "mwapi-generate-admin": "3.0.0",
-    "mwapi-generate-api": "3.0.0",
-    "mwapi-generate-new": "3.0.0",
-    "mwapi-generate-plugin": "3.0.0",
-    "mwapi-generate-policy": "3.0.0",
-    "mwapi-generate-service": "3.0.0",
-    "mwapi-utils": "3.0.0",
+    "mwapi-generate": "3.0.1",
+    "mwapi-generate-admin": "3.0.1",
+    "mwapi-generate-api": "3.0.1",
+    "mwapi-generate-new": "3.0.1",
+    "mwapi-generate-plugin": "3.0.1",
+    "mwapi-generate-policy": "3.0.1",
+    "mwapi-generate-service": "3.0.1",
+    "mwapi-utils": "3.0.1",
     "pluralize": "^6.0.0"
   },
   "mwapi": {

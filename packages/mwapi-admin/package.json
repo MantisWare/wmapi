@@ -1,6 +1,6 @@
 {
   "name": "mwapi-admin",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "mwapi Admin",
   "repository": {
     "type": "git",
@@ -26,8 +26,8 @@
     "shelljs": "^0.7.8"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0",
-    "mwapi-utils": "3.0.0",
+    "mwapi-helper-plugin": "3.0.1",
+    "mwapi-utils": "3.0.1",
     "sanitize.css": "^4.1.0"
   },
   "author": {

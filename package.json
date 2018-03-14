@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "3.0.0",
+  "version": "3.0.1",
   "devDependencies": {
     "assert": "~1.3.0",
     "babel-eslint": "^6.1.2",
@@ -19,12 +19,14 @@
   "scripts": {
     "clean": "npm run removesymlinkdependencies && rm -rf package-lock.json && rm -rf packages/*/package-lock.json",
     "clean:all": "npm run removesymlinkdependencies && rm -rf package-lock.json && rm -rf packages/*/package-lock.json && rm -rf packages/*/node_modules",
-    "doc": "node ./scripts/documentation.js",
-    "doc:run": "node ./docs/server.js",
+    "doc:build": "node ./scripts/documentation.js",
+    "doc": "node ./docs/server.js",
     "release": "npm run clean:all && npm install && npm run createsymlinkdependencies && lerna exec --concurrency 1 -- npm install && npm run removesymlinkdependencies && node ./scripts/publish.js $TAG",
     "createsymlinkdependencies": "node ./scripts/createSymlinkDependencies.js",
     "removesymlinkdependencies": "node ./scripts/removeSymlinkDependencies.js",
     "setup": "npm run clean:all && npm install && node ./scripts/setup.js && npm run clean",
+    "link": "node ./scripts/linking.js",
+    "install:all": "npm run createsymlinkdependencies && node ./scripts/install.js",
     "test": "make test"
   },
   "author": {
@@ -40,8 +42,7 @@
     }
   ],
   "pre-commit": [
-    "clean",
-    "test"
+    "clean"
   ],
   "repository": {
     "type": "git",

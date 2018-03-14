@@ -1,6 +1,6 @@
 {
   "name": "mwapi-redis",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Redis hook for the mwapi framework",
   "homepage": "http://#",
   "keywords": [
@@ -18,7 +18,7 @@
     "ioredis": "^3.1.2",
     "lodash": "^4.17.4",
     "stack-trace": "0.0.10",
-    "mwapi-utils": "3.0.0"
+    "mwapi-utils": "3.0.1"
   },
   "mwapi": {
     "isHook": true

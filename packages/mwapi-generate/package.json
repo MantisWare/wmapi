@@ -1,6 +1,6 @@
 {
   "name": "mwapi-generate",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Master of ceremonies for the mwapi generators.",
   "homepage": "http://#",
   "keywords": [
@@ -16,7 +16,7 @@
     "async": "^2.5.0",
     "fs-extra": "^4.0.0",
     "lodash": "^4.17.4",
-    "mwapi-utils": "3.0.0",
+    "mwapi-utils": "3.0.1",
     "reportback": "^2.0.1"
   },
   "author": {

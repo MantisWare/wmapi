@@ -1,6 +1,6 @@
 {
   "name": "mwapi-plugin-content-manager",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A powerful UI to easily manage your data.",
   "mwapi": {
     "name": "Content Manager",
@@ -23,7 +23,7 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "mwapi-helper-plugin": "3.0.0",
+    "mwapi-helper-plugin": "3.0.1",
     "react-select": "^1.0.0-rc.5"
   },
   "author": {

@@ -1,6 +1,6 @@
 {
   "name": "mwapi-middleware-views",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Views hook to enable server-side rendering for the mwapi framework",
   "homepage": "http://#",
   "keywords": [

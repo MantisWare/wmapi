@@ -129,7 +129,8 @@ if (window.location.port !== '0') {
       });
     })
     .catch(err => {
-      console.log(err);
+      throw err;
+      //console.log(err);
     });
 } else if (findIndex(plugins, ['id', 'users-permissions']) === -1) {
   store.dispatch(unsetHasUserPlugin());
